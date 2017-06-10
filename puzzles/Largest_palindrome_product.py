@@ -20,12 +20,12 @@ def next(number):
             else:
                 return (int(high))*10**(len(string)-1)-1-9+int(high)
     else:
-        if symm(number):
-            return int(high+str(next(gap))+high)
-        elif high==low:
-            
-            
-#掐头去尾拿到中间的数字 
+        # if symm(number):
+        #     return int(high+str(next(gap))+high)
+        # elif high==low:
+        pass
+
+#掐头去尾拿到中间的数字
 def narrow(before):
     if len(before)<2:
         return 0
